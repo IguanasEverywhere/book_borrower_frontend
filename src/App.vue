@@ -6,6 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
   <RouterLink to="/dashboard">Dashboard</RouterLink>
   <RouterLink to="/library">Library</RouterLink>
+  <RouterLink to="/users">Users</RouterLink>
 </template>
 
 <style scoped>

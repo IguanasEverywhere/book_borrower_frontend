@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Dashboard from '@/views/Dashboard.vue'
 import Login from '@/views/Login.vue'
 import Library from '@/views/Library.vue'
+import Users from '@/views/Users.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/library',
       name: 'library',
       component: Library,
+    },
+    {
+      path: '/users',
+      name: 'users',
+      component: Users
     }
   ],
 })

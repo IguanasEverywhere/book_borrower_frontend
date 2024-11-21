@@ -1,5 +1,6 @@
 <script setup lang="ts">
-    console.log("what up from dashboard")
+    console.log("what up from dashboard...")
+
 </script>
 
 <template>
