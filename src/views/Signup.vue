@@ -1,5 +1,4 @@
 <script setup lang="ts">
-console.log("this will be the signup page");
 import { ref } from "vue";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
@@ -8,7 +7,6 @@ let password = ref("");
 let errorMessage = ref("");
 
 const handleSignUpSubmit = () => {
-  console.log(email.value, password.value);
   const auth = getAuth();
   createUserWithEmailAndPassword(auth, email.value, password.value)
     .then((userCredential) => {
