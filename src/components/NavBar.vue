@@ -9,4 +9,5 @@ console.log("Navbar is happening...")
   <RouterLink to="user-reviews">My Reviews</RouterLink>
   <RouterLink to="/my-books">My Books</RouterLink>
   <RouterLink to="/signup">Sign Up</RouterLink>
+  <RouterLink to="/login">Login</RouterLink>
 </template>
