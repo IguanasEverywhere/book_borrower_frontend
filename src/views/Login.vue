@@ -11,7 +11,6 @@ const handleLoginSubmit = () => {
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then((userCredential) => {
       const user = userCredential.user;
-      console.log("hello, ", user.email);
       errorMessage.value = "";
     })
     .catch((error) => {

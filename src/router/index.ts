@@ -6,6 +6,7 @@ import Users from '@/views/Users.vue'
 import MyBooks from '@/views/MyBooks.vue'
 import UserReviews from '@/views/UserReviews.vue'
 import Signup from '@/views/Signup.vue'
+import Logout from '@/views/Logout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,6 +50,11 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path:'/logout',
+      name: 'logout',
+      component: Logout
     }
   ],
 })

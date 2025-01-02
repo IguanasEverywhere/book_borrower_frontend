@@ -10,4 +10,5 @@ console.log("Navbar is happening...")
   <RouterLink to="/my-books">My Books</RouterLink>
   <RouterLink to="/signup">Sign Up</RouterLink>
   <RouterLink to="/login">Login</RouterLink>
+  <RouterLink to="/logout">Logout</RouterLink>
 </template>
